@@ -82,10 +82,6 @@ resource "aws_security_group_rule" "vgd-cluster-ingress-node-https" {
   to_port                  = 443
   type                     = "ingress"
 }
-resource "aws_key_pair" "deployer" {
-  key_name   = "deployer-key"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC/eZnJdbS6DRYDl7Q0P9QhNlLju+77wFEq7Nvxc/kutQWItMmXLWqpjMGIojl25QWX3abfmXd05JnkSlVMZZDz0Jg236Ricx5JxE+8xnizMSOciboJqTOPuUV9Gfsi/hmyMuQllc2K4x44r/VeQwn8oJDfy0DySQv/F2ps1cUBTkAiJhiOJDT8038E/+P+mF1iGnyaPHYpVFrjiFwJxHlzgq0SZYMemDq93QWKBFz7RJYvXhdeO+yKjFu8MLQyqj7pNoXOt1Td2DOyf3MjvHK7a1ptLdsrDtQRJJ1mhf9ieCT+0MzNhUy0rHFFrH77QzP6jhcqMNbVLZ18z6f+p70n manasa.pala@Manasas-MBP.hsd1.ca.comcast.net"
-}
 
 
 
