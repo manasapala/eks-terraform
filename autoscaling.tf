@@ -88,8 +88,6 @@ resource "aws_launch_template" "vgd_launch_template" {
 
   #kernel_id = "test"
 
-  key_name = aws_key_pair.deployer.key_name
-
   #license_specification {
   #  license_configuration_arn = "arn:aws:license-manager:eu-west-1:123456789012:license-configuration:lic-0123456789abcdef0123456789abcdef"
   #}
